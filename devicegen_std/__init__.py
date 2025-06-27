@@ -1,0 +1,1 @@
+from devicegen_std.device_gen import DeviceGenerator

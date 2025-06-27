@@ -4,7 +4,7 @@
 
 ### Software components
 
-- devicegen
+- devicegen_std
 - gmsh
 
 ### Python script
@@ -13,7 +13,7 @@
 
 ## Briefing
 
-The aim of this tutorial is to demonstrate how the devicegen can be used to accelerate the generation of meshes appropriate for modelling semiconductor nanodevices. Here, the demonstration is made for the following gated quantum-dot system:
+The aim of this tutorial is to demonstrate how the devicegen_std can be used to accelerate the generation of meshes appropriate for modelling semiconductor nanodevices. Here, the demonstration is made for the following gated quantum-dot system:
 
 ![gated_dot](./figs/gated_dot_example/device_to_build_gaas.png)
 

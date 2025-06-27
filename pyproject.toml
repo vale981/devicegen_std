@@ -1,0 +1,44 @@
+[project]
+name = "devicegen_std"
+version = "1.0.4"
+description = "Device generator for gated quantum devices"
+readme = "README.md"
+license = { text = "GPLv3+" }
+authors = [
+  { name = "Pericles Philippopoulos", email = "pericles@nanoacademic.com" },
+  { name = "Felix Beaudoin" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Topic :: Scientific/Engineering"
+]
+requires-python = ">=3.13"
+
+dependencies = [
+  "gmsh>=4.13.1",
+  "klayout>=0.30.2",
+  "rich>=14.0.0",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+    "ipython>=9.3.0",
+    "ruff>=0.6.7",
+]
+doc = [
+    "sphinx>=8.2.3",
+    "sphinx-autobuild>=2024.10.3",
+    "sphinx-autodoc2>=0.5.0",
+    "sphinx-mdinclude>=0.6.2",
+]
+test = [
+    "pytest>=8.4.1",
+]

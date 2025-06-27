@@ -1,4 +1,4 @@
-name: devicegen
+name: devicegen_std
 channels:
 - defaults
 - conda-forge

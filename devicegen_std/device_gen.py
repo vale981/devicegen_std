@@ -4,7 +4,7 @@ import copy
 
 import gmsh
 
-from devicegen.gds_parser import Parser
+from devicegen_std.gds_parser import Parser
 
 class DeviceGenerator:
     """ Class used to generate QTCAD device objects.
